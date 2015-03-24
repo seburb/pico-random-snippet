@@ -1,6 +1,6 @@
 <?php
 header("Cache-Control: no-cache, must-revalidate"); // Dirty fix to force the browser to update on
-header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // every page load. Uncomment if cache is needed.
+header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // every page load. Remove if cache is needed.
 
 class Random_Snippet {
 
